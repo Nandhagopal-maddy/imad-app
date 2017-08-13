@@ -5,6 +5,8 @@ element.innerHTML = 'jarvis';
  
  var img = document.getElementById('madi');
  img.onclick = function() {
-   
+
+    console.log('inside function');   
     img.style.marginleft='100px';     
  };
+ 
