@@ -1,7 +1,7 @@
 console.log('Loaded!');
 
-var img=document.getElementById('img');
-img.onrightclick=function()
+var im=document.getElementById('im');
+im.onrightclick=function()
 {
-  img.style.marginleft="100px";  
+  im.style.marginleft="100px";  
 };
