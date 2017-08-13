@@ -1,6 +1,6 @@
 console.log('Loaded!');
-element.innerhtml="new value";
-var img=document.getelementbyid("img");
+
+var img=document.getElementByid("img");
 img.onclick=function()
 {
   img.style.marginleft="100px";  
