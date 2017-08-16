@@ -15,14 +15,15 @@ element.innerHTML = 'jarvis';
      img.style.marginLeft = marginLeft + 'px';
  }
  img.onclick = function () {
-    var interval = setInterval (moveRight, 10);
-    if (marginLeft>=30) {
-        var interval2 = setInterval(moveLeft , 10);
-        if(marginLeft==60)
+       if (marginLeft>=30) {
+        var interval2 = setInterval(moveLeft, 10);
+        if(marginLeft == 60)
         {
         marginLeft = marginLeft - 60;
         }
     }
+    var interval = setInterval (moveRight, 10);
+  
         
  };
  
