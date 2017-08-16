@@ -7,6 +7,6 @@ element.innerHTML = 'jarvis';
  img.onclick = function() {
 
     console.log('inside function');   
-    img.style.marginleft ='100px';     
+    img.style.margin_left ='100px';     
  };
  
