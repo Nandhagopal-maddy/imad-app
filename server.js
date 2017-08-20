@@ -13,6 +13,12 @@ app.get('/my', function (req, res) {
   res.send("my html is not working");
 }); 
 
+var counter = 0;
+app.get('/counter',function(req ,res){
+	counter = counter + 1;
+res.send(counter.toString());
+});
+
 app.get('/my_html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'my.html'));
 });
